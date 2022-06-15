@@ -134,7 +134,7 @@ def decode_ch(sting_of_elements):
     print(list1)
     print(sting_of_elements)
 
-    # разбиваем строку названий элементов
+
     list_elements = re.findall(r"[A-Z][a-z]?", sting_of_elements)
     print(list_elements)
     reduce_string = ""
